@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Name": "Beef"
+  },
+  {
+    "Id": 2,
+    "Name": "Chicken"
+  },
+  {
+    "Id": 3,
+    "Name": "Salmon"
+  },
+  {
+    "Id": 4,
+    "Name": "Trout"
+  },
+  {
+    "Id": 5,
+    "Name": "Mushrooms"
+  },
+  {
+    "Id": 6,
+    "Name": "Cabbage"
+  },
+  {
+    "Id": 7,
+    "Name": "Iceberg"
+  },
+  {
+    "Id": 8,
+    "Name": "Eggs"
+  },
+  {
+    "Id": 9,
+    "Name": "Milk"
+  },
+  {
+    "Id": 10,
+    "Name": "Mayonaise"
+  },
+  {
+    "Id": 11,
+    "Name": "Ketchup"
+  },
+  {
+    "Id": 12,
+    "Name": "Basil"
+  },
+  {
+    "Id": 13,
+    "Name": "Pepper"
+  },
+  {
+    "Id": 14,
+    "Name": "Chili"
+  },
+  {
+    "Id": 15,
+    "Name": "Cherry Tomato"
+  }
+]

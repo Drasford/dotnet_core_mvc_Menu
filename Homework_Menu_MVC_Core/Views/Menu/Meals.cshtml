@@ -1,0 +1,71 @@
+﻿@model Homework_Menu_MVC_Core.Models.ViewModels.MealWithMealTypesViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Ingredients
+            </th>
+            <th>
+                Meal type
+            </th>
+            <th>
+                Vegetarian
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.meals) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @foreach(var ingredient in item.Ingredients) 
+                { 
+                    <span>@ingredient.Name </span>
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MealType)
+            </td>
+            <td>
+                @if (item.IsVegetarian)
+                {
+                    <span>Vegetarian</span>
+                }
+                else
+                {
+                    <span>Not vegetarian</span>
+                }
+            </td>
+            <td>
+                <form asp-controller="Menu" asp-action="Delete" asp-route-id="@item.Name" method="post" >
+                    <div class="form-group">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </div>
+                </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
