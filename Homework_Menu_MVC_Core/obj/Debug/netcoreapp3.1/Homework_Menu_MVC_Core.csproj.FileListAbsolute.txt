@@ -112,3 +112,8 @@ C:\Users\divanovski\source\repos\Homework_Menu_MVC_Core\Homework_Menu_MVC_Core\o
 C:\Users\divanovski\source\repos\Homework_Menu_MVC_Core\Homework_Menu_MVC_Core\obj\Debug\netcoreapp3.1\Homework_Menu_MVC_Core.pdb
 C:\Users\divanovski\source\repos\Homework_Menu_MVC_Core\Homework_Menu_MVC_Core\obj\Debug\netcoreapp3.1\Razor\Views\Menu\Meals.cshtml.g.cs
 C:\Users\divanovski\source\repos\Homework_Menu_MVC_Core\Homework_Menu_MVC_Core\obj\Debug\netcoreapp3.1\Razor\Views\Menu\CreateMealForm.cshtml.g.cs
+C:\Users\divanovski\source\repos\Homework_Menu_MVC_Core\Homework_Menu_MVC_Core\bin\Debug\netcoreapp3.1\Data\Supply.json
+C:\Users\divanovski\source\repos\Homework_Menu_MVC_Core\Homework_Menu_MVC_Core\obj\Debug\netcoreapp3.1\Razor\Views\Supply\Supply.cshtml.g.cs
+C:\Users\divanovski\source\repos\Homework_Menu_MVC_Core\Homework_Menu_MVC_Core\obj\Debug\netcoreapp3.1\Razor\Views\Supply\Details.cshtml.g.cs
+C:\Users\divanovski\source\repos\Homework_Menu_MVC_Core\Homework_Menu_MVC_Core\obj\Debug\netcoreapp3.1\Razor\Views\Supply\Create.cshtml.g.cs
+C:\Users\divanovski\source\repos\Homework_Menu_MVC_Core\Homework_Menu_MVC_Core\obj\Debug\netcoreapp3.1\Razor\Views\Supply\Edit.cshtml.g.cs

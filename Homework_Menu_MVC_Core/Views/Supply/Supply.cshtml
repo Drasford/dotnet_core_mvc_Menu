@@ -1,0 +1,52 @@
+﻿@model Homework_Menu_MVC_Core.Models.ViewModels.SupplyListAndSupplyViewModel
+
+@{
+    ViewData["Title"] = "Supply";
+}
+
+<h1>Supply</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Ingredient name
+            </th>
+            <th>
+               Quantity
+            </th>
+            <th>
+                Expiration Date
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Supplies) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ingredient.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExpirationDate)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            
+                <form asp-controller="Supply" asp-action="Delete" asp-route-id="@item.Ingredient.Name" method="post">
+                    <div class="form-group">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </div>
+                </form>
+           
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -42,5 +42,13 @@
   {
     "type": "Breakfast",
     "time": "17:59:29 PM"
+  },
+  {
+    "type": "Soup",
+    "time": "08:02:40 AM"
+  },
+  {
+    "type": "Fish",
+    "time": "08:02:44 AM"
   }
 ]
